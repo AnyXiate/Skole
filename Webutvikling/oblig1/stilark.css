@@ -1,0 +1,152 @@
+* {
+    background-color: #B3688A;
+}
+
+header {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+header nav {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #782249;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+nav ul {
+    background-color: #782249;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #AA5585;
+    text-decoration: underline;
+}
+
+.main {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: 600px;
+    border: solid;
+}
+
+.box {
+    float: left;
+    width: 25%;
+    border: solid;
+    height: 260px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.box a {
+    float: right;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: #782249;
+    height: 10%; 
+}
+
+.box p {
+    height: 100px;
+}
+
+.box a:hover {
+    background-color: rgb(146, 45, 114);
+}
+
+.artikkel {
+    font-family: Arial, sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.artikkel h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.artikkel p {
+    width: 50%
+}
+
+.artikkel img {
+    float: right;
+    width: 50%;
+}
+
+
+footer {
+    position: relative;
+    margin-top: 10px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tidspunkt {
+    position: relative;
+    top: 200px;
+}
+#con {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 100%;
+}
+
+#boxpad {
+    padding: 10px;
+    background-color: white;
+    color: red;
+    border: solid;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+#boxpad2 {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 20px;
+    border: blue 1px solid;
+}
+
+
+figure img {
+    height: 200px;
+    width: 300px;
+}
+
+figcaption {
+    margin-left: 190px;
+}
+
+#boxmodel {
+    position: inline;
+    margin-left: 20px;
+}
