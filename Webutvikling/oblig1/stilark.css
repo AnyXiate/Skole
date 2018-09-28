@@ -42,13 +42,17 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-.main {
+main {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    height: 600px;
+    height: 700px;
     border: solid;
+}
+
+h2 {
+    text-align: center;
 }
 
 .box {
@@ -148,6 +152,5 @@ figcaption {
 }
 
 #boxmodel {
-    position: inline;
     margin-left: 20px;
 }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <script>
+    
+    window.onload = oppstart;
+
+    function oppstart () {
+
+        var start = new Date().getTime();
+
+        var tilutskrift = "";
+        
+        for(var i = 0; i <= 25000; i++) {
+            
+            tilutskrift += i + " ";
+        }
+
+        document.getElementById("utskrift").innerHTML = tilutskrift;
+        var end = new Date().getTime();
+        alert((end-start)/1000);
+    }
+    
+    
+    
+    </script>
+</head>
+<body>
+    <p id="utskrift" />
+    <canvas id="tegneflate" width="400" height="400" />
+</body>
+</html>
