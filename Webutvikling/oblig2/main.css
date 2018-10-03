@@ -1,0 +1,184 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-image: linear-gradient(to right top, #fde7d3, #fde7d2, #fde7d2, #fde8d1, #fde8d1);
+}
+
+/*grid for layout*/
+.gridside {
+    display: grid;
+    grid-template-columns: 1fr 8fr 3fr;
+    grid-template-rows: 1fr 8fr 2fr;
+    grid-template-areas:
+    "header header header"
+    "nav main aside"
+    "footer footer footer";
+    height: 100vh;
+}
+
+/*flexbox for hovedseksjonen på siden*/
+#flexbox {
+    display: flex;
+    flex-flow: row;
+}
+
+#flexbox li {
+    list-style: none;
+}
+
+
+#flexbox a {
+    text-decoration: none;
+    color: black;
+    background-color: #fad1ab;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#flexbox a:hover {
+    background-color: #fac491;
+}
+
+#box1 {
+    order: 1;
+    width: 32%;
+    margin: 0 auto;
+}
+
+
+
+#box2 {
+    order: 2;
+    width: 32%;
+    margin: 0 auto;
+}
+
+#box3 {
+    order: 3;
+    width: 32%;
+    margin: 0 auto;
+}
+
+/* nav meny på venstre side*/
+nav {
+    grid-area: nav;
+    border: solid 1px #fac491;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #fad1ab
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    background-color: #fac491
+}
+
+/*header*/
+header {
+    grid-area: header;
+    text-align: center;
+    background-image: url("diamant.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+main {
+    grid-area: main;
+    border: solid 1px #fac491;
+}
+
+
+/*høyre seksjon på siden*/
+aside {
+    grid-area: aside;
+    border: solid 1px #fac491;
+}
+
+aside a {
+    text-decoration: none;
+    color: black;
+    background-color: #fad1ab;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+aside a:hover {
+    background-color: #fac491
+}
+
+
+#flexaside {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    text-align: center;
+    margin: auto 0;
+}
+
+/*aside box1 Webutvikling*/
+#boxa1 {
+    order: 1;
+    height: 50%;
+}
+
+/*aside box2 Responsiv design*/
+#boxa2 {
+    order: 2;
+    height: 20%;
+}
+
+/*aside box3 Github*/
+#boxa3 {
+    order: 3;
+    height: 20%;
+}
+
+/*footer*/
+footer {
+    grid-area: footer;
+}
+
+/*brukes for å sentrere tekst*/
+.center {
+    text-align: center;
+}
+
+/* Sekjonen i artikkelen som er til venstre for bilde */
+.articleleft {
+    margin-left: 50px;
+}
+
+.articleleft p {
+    max-width: 50%;
+}
+
+
+.articleimg {
+    float: right;
+    height: 300px;
+    width: 300px;
+    margin-right: 50px;
+}
+
+/* Seksjonen øverst i artikkelen */
+.articletop {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
