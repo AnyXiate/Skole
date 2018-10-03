@@ -110,7 +110,13 @@ aside {
     border: solid 1px #fac491;
 }
 
-aside a {
+aside #boxa2 a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+aside #boxa3 a {
     text-decoration: none;
     color: black;
     background-color: #fad1ab;
@@ -180,5 +186,6 @@ footer {
 .articletop {
     margin-left: 50px;
     margin-right: 50px;
+    height: 100px;
 }
 
